@@ -1,10 +1,12 @@
-import React from 'react';
+import { Box, Typography } from '@mui/material';
 
 const Error = () => {
     return (
-        <div>
-           ERROR 404: NOT FOUND
-        </div>
+        <Box>
+           <Typography variant="h5">
+               ERROR 404: NOT FOUND
+           </Typography>
+        </Box>
     );
 };
 
